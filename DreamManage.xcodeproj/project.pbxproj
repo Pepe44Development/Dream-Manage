@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500A2FAB2518140700395600 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A2FAA2518140700395600 /* TableViewController.swift */; };
+		500A2FAE2518180700395600 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A2FAD2518180700395600 /* Players.swift */; };
 		506183B924BE950F00501AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506183B824BE950F00501AA8 /* AppDelegate.swift */; };
 		506183BB24BE950F00501AA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506183BA24BE950F00501AA8 /* SceneDelegate.swift */; };
 		506183BD24BE950F00501AA8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506183BC24BE950F00501AA8 /* FirstViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500A2FAA2518140700395600 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		500A2FAD2518180700395600 /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
 		506183B524BE950F00501AA8 /* DreamManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		506183B824BE950F00501AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		506183BA24BE950F00501AA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				506183C324BE951000501AA8 /* Assets.xcassets */,
 				506183C524BE951000501AA8 /* LaunchScreen.storyboard */,
 				506183C824BE951000501AA8 /* Info.plist */,
+				500A2FAA2518140700395600 /* TableViewController.swift */,
+				500A2FAD2518180700395600 /* Players.swift */,
 			);
 			path = DreamManage;
 			sourceTree = "<group>";
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500A2FAE2518180700395600 /* Players.swift in Sources */,
 				506183BF24BE950F00501AA8 /* SecondViewController.swift in Sources */,
 				506183BD24BE950F00501AA8 /* FirstViewController.swift in Sources */,
 				506183B924BE950F00501AA8 /* AppDelegate.swift in Sources */,
+				500A2FAB2518140700395600 /* TableViewController.swift in Sources */,
 				506183BB24BE950F00501AA8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
